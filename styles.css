@@ -1,0 +1,44 @@
+body{
+    background-color: #C7C8CC;
+}
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+#title, #img-div, #tribute-info{
+    padding-top: 2%;
+}
+#img-caption, li{
+    padding-top: 1.5%;
+    font-size: 1rem;
+}
+#tribute-info{
+    width: 65%;
+    margin: auto;
+    font-size: 1rem;
+}
+#title, #img-caption, p, h3{
+    text-align: center;
+}
+#img-div{
+    background-color: #EEEEEE;
+}
+#img-caption, #tribute-info{
+    padding-bottom: 1%;
+}
+h1{
+    font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+    html {
+        font-size: 15px; /* Default font size */
+    }
+}
+
+@media (max-width: 480px)  {
+    html {
+        font-size: 13px; /* Default font size */
+    }
+}
